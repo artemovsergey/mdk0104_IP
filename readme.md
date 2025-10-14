@@ -5,7 +5,7 @@
 
 <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-236&prd=1004">ИП236</a>
 
-# Объекм
+# Объем
 
 - 25 лекций
 - 33 практики

@@ -3,7 +3,11 @@
     
 # Тестирование
 
+
+<a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-232&prd=1004">ИП232</a>
+
 <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-236&prd=1004">ИП236</a>
+
 
 # Объем
 

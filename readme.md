@@ -1,7 +1,7 @@
 # Мдк 01.04 Системное программирование
 Специальность: ИП
     
-<a href="http.//prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-232&prd=1004">ИП232</a>
+<a href="./course/Раздел 1. Основы .NET и С#/">ИП232</a>
     
 # Тестирование
 

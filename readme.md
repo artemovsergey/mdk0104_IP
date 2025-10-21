@@ -7,7 +7,7 @@
 <a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip-232&prd=1004">Рейтинг</a>
 
 <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-235&prd=1004">ИП235</a>
-<a href="http.//prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip-235&prd=1004">Рейтинг</a>
+<a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip-235&prd=1004">Рейтинг</a>
 
 <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-236&prd=1004">ИП236</a>
 <a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip-236&prd=1004">Рейтинг</a>

@@ -8,11 +8,17 @@
 
 <!-- заполнить перед началом семестра -->
 
-- **Группы:** `<группы>`
+- **Группы:** `ИП-242`, `ИП-245`, `ИП-246`
 - **Экзамен:** `<дата экзамена>`
-- **Ссылки на систему с заданиями:** `<ссылки>`
+- **Ссылки на систему с заданиями:** см. раздел «Тестирование студентов»
 - **Учебная практика:** `<неделя, даты>`
 - **Производственная практика:** `<группы, сроки>`
+
+## Тестирование студентов
+
+- **ИП-242:** <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip242&prd=1004">тестирование</a> · <a href="http://prep.scc/cgi-bin/testm/jrn.pl?prep=asv&sp=0907&grp=ip242&prd=1004">журнал</a> · <a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip242&prd=1004">рейтинг</a>
+- **ИП-245:** <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip245&prd=1004">тестирование</a> · <a href="http://prep.scc/cgi-bin/testm/jrn.pl?prep=asv&sp=0907&grp=ip245&prd=1004">журнал</a> · <a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip245&prd=1004">рейтинг</a>
+- **ИП-246:** <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip246&prd=1004">тестирование</a> · <a href="http://prep.scc/cgi-bin/testm/jrn.pl?prep=asv&sp=0907&grp=ip246&prd=1004">журнал</a> · <a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip246&prd=1004">рейтинг</a>
 
 ### Порядок сдачи экзамена
 

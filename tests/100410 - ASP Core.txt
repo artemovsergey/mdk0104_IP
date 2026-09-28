@@ -1,0 +1,130 @@
+192.168.255
+Ставропольский колледж связи
+Специальность::0907::Информационные системы и программирование
+Дисциплина::1004::МДК0104 Системное программирование: ASP Core
+Преподаватель::Артемов С.В.
+Индекс теста::10::МДК0104 Системное программирование: ASP Core
+Всего вопросов::20
+Выводимых вопросов::20
+Тип теста::S=100::Z(DCDCDC)::J90%80%70%
+
+##01::3
+Какая компания является основным разработчиком ASP.NET Core?
+Microsoft
+Google
+Oracle
+IBM
+##02::3
+Что из перечисленного является ключевым отличием ASP.NET Core от классического ASP.NET?
+Кроссплатформенность (Windows, Linux, macOS)
+Работа только на Windows
+Отсутствие поддержки MVC
+Использование только IIS в качестве веб-сервера
+##03::3
+Как в ASP.NET Core называется компонент, формирующий конвейер обработки HTTP-запроса?
+Middleware
+Controller
+Filter
+Handler
+##04::3
+Какой паттерн проектирования встроен в ASP.NET Core по умолчанию для управления зависимостями?public class HomeController : Controller {    private readonly IProductService _service;    public HomeController(IProductService service) { _service = service; }}
+Dependency Injection
+Singleton
+Factory Method
+Observer
+##05::3
+Какой класс является точкой входа в приложение ASP.NET Core?var builder = WebApplication.CreateBuilder(args);var app = builder.Build();app.Run();
+Program
+Startup
+WebHost
+Application
+##06::3
+Какой компонент архитектуры MVC отвечает за пользовательский интерфейс (отображение данных)?
+View
+Model
+Controller
+Router
+##07::3
+Какой атрибут используется для определения маршрута непосредственно в контроллере или действии?[___("products/{id}")]public IActionResult Details(int id) { ... }
+Route
+HttpGet
+ApiController
+Bind
+##08::3
+Какой фреймворк используется в ASP.NET Core для работы с базами данных через объектно-реляционное отображение (ORM)?
+Entity Framework Core
+Dapper
+ADO.NET
+NHibernate
+##09::3
+Какой движок представлений используется по умолчанию в ASP.NET Core MVC для генерации HTML?@Model.TitlePrice: @Model.Price
+Razor
+Blazor
+Angular
+React
+##10::3
+Какой жизненный цикл сервиса в DI-контейнере подразумевает создание одного экземпляра для всего приложения?
+Singleton
+Scoped
+Transient
+Instance
+##11::3
+Какой жизненный цикл сервиса подразумевает создание нового экземпляра для каждого HTTP-запроса?
+Scoped
+Transient
+Singleton
+Request
+##12::3
+Как по умолчанию называется основной файл конфигурации в ASP.NET Core?{  "ConnectionStrings": { ... },  "Logging": { ... }}
+appsettings.json
+config.json
+application.json
+web.config
+##13::3
+Какой метод расширения используется для добавления поддержки MVC в контейнер сервисов?builder.Services.____();
+AddControllers (или AddMvc)
+UseMvc
+AddRouting
+ConfigureMvc
+##14::3
+Для чего используется класс `Product` в следующем коде?public class Product {    public int Id { get; set; }    public string Name { get; set; }}
+Это Модель (Model), представляющая данные
+Это Контроллер (Controller), обрабатывающий запросы
+Это Представление (View), отображающее данные
+Это Middleware, обрабатывающий запрос
+##15::3
+Какой механизм безопасности лучше всего подходит для защиты REST API в ASP.NET Core?
+JWT (JSON Web Token)
+Cookie Authentication
+Windows Authentication
+HTTPS
+##16::3
+Что выведет следующий код?app.MapGet("/", () => "Привет, мир!");app.Run();
+Привет, мир!
+Код ошибки 404
+Название приложения
+Пустую страницу
+##17::3
+Какой из этих методов НЕ является способом маршрутизации в ASP.NET Core?
+Event Routing
+Conventional Routing
+Attribute Routing
+Endpoint Routing
+##18::3
+Для чего используется класс `Startup` (в версиях до .NET 6) или аналогичный код в `Program.cs`?
+Для настройки сервисов и конвейера middleware
+Для определения моделей данных
+Для написания бизнес-логики приложения
+Для хранения строк подключения к БД
+##19::3
+Какой метод используется для сохранения изменений в базу данных при работе с Entity Framework Core?
+SaveChanges()
+Update()
+Commit()
+SubmitChanges()
+##20::3
+Какой символ используется в синтаксисе Razor для переключения с HTML на C# код?Текущее время: ___DateTime.Now
+@
+%
+$
+#

@@ -1,0 +1,130 @@
+192.168.255 192.168.4
+Ставропольский колледж связи
+Специальность::0907::Информационные системы и программирование
+Дисциплина::1004::МДК0104 Системное программирование: Развертывание приложения
+Преподаватель::Артемов С.В.
+Индекс теста::25::МДК0104 Системное программирование: Развертывание приложения
+Всего вопросов::20
+Выводимых вопросов::15
+Тип теста::S=100::Z(DCDCDC)::J80%70%60%
+
+##01::3
+Что такое развертывание приложения?
+Процесс переноса приложения из среды разработки в рабочую среду, где им пользуются конечные пользователи
+Процесс написания исходного кода приложения
+Процесс проектирования пользовательского интерфейса
+Процесс обучения конечных пользователей
+##02::3
+Какие инструменты CI/CD упоминаются в лекции для автоматизации развертывания?
+GitHub Actions и Azure DevOps
+Word и Excel
+Photoshop и Figma
+Blender и Unity
+##03::3
+Какой классический вариант развертывания используется на Windows?
+IIS
+Nginx
+Kestrel без реверс-прокси
+RabbitMQ
+##04::3
+Что применяется для развертывания на Linux?
+Kestrel и Nginx/Apache
+IIS и Hosting Bundle
+Azure App Service
+SMTP-сервер
+##05::3
+Какой тип развертывания даёт легковесные изолированные окружения?
+Контейнеры (Docker)
+Установка на IIS
+Публикация в облако
+Размещение на файловом сервере
+##06::3
+Какие файлы используются для конфигурации приложения?
+appsettings.json и appsettings.Production.json
+index.html и style.css
+Dockerfile и README.md
+Program.cs и Startup.cs
+##07::3
+Какая переменная окружения задаёт рабочую среду Production?
+ASPNETCORE_ENVIRONMENT=Production
+DOTNET_ENV=Debug
+ASPNETCORE_URLS=Development
+NODE_ENV=test
+##08::3
+Какая команда публикует проект для развертывания?
+dotnet publish -c Release -o ./publish
+dotnet run --configuration Debug
+dotnet new console
+dotnet ef migrations add Init
+##09::3
+Какой компонент нужно установить на IIS для работы ASP.NET Core приложения?
+ASP.NET Core Hosting Bundle
+Java Runtime Environment
+Node.js
+RabbitMQ
+##10::3
+Что нужно настроить при создании сайта в IIS для ASP.NET Core?
+Пул приложений (Application Pool) на .NET Core
+Брокер сообщений
+Кластер Kubernetes
+Кэш Redis
+##11::3
+Что такое Kestrel?
+Встроенный веб-сервер ASP.NET Core, который обрабатывает HTTP-запросы
+Реверс-прокси для обработки HTTPS
+Система управления контейнерами
+Брокер сообщений
+##12::3
+Какова роль Nginx при развертывании на Linux?
+Реверс-прокси для обработки HTTPS и балансировки нагрузки
+Компиляция C# кода
+Хранение секретов приложения
+Публикация NuGet-пакетов
+##13::3
+Какая строка systemd-юнита запускает приложение?
+ExecStart=/usr/bin/dotnet /var/www/myapp/MyApp.dll
+ExecStart=/usr/bin/nginx start
+Restart=always
+WorkingDirectory=/var/www/myapp
+##14::3
+Какой параметр systemd-юнита обеспечивает автоматический перезапуск службы?
+Restart=always
+After=network.target
+User=www-data
+WantedBy=multi-user.target
+##15::3
+Куда Nginx перенаправляет запросы согласно примеру конфигурации?
+http://localhost:5000
+http://localhost:8080
+http://example.com:80
+http://localhost:3000
+##16::3
+Какой образ используется на этапе сборки (build) в примере Dockerfile?
+mcr.microsoft.com/dotnet/sdk:10.0
+mcr.microsoft.com/dotnet/aspnet:10.0
+mcr.microsoft.com/dotnet/runtime:10.0
+ubuntu:latest
+##17::3
+Какая команда собирает Docker-образ приложения?
+docker build -t myapp .
+docker run -d -p 8080:8080 myapp
+docker compose up
+dotnet pack -c Release
+##18::3
+Какой порт по умолчанию слушает базовый образ aspnet начиная с .NET 8?
+8080
+80
+5000
+443
+##19::3
+Какие инструменты упомянуты для сбора метрик и настройки оповещений?
+Prometheus и Grafana
+Serilog и NLog
+RabbitMQ и Kafka
+Docker и Nginx
+##20::3
+Какие стратегии относятся к горячим обновлениям и откату?
+Blue/Green Deployment и Canary Releases
+Git Flow и Pull Request
+SOLID и DRY
+MVC и MVVM

@@ -1,0 +1,190 @@
+192.168.255
+Ставропольский колледж связи
+Специальность::0907::Информационные системы и программирование
+Дисциплина::1004::МДК0104 Системное программирование: Наследование, полиморфизм, инкапсуляция
+Преподаватель::Артемов С.В.
+Индекс теста::9::МДК0104 Системное программирование: Наследование, полиморфизм, инкапсуляция
+Всего вопросов::30
+Выводимых вопросов::25
+Тип теста::S=100::Z(DCDCDC)::J80%70%60%
+
+##01::3
+Какой символ используется для наследования класса в C#? (public class Car : Transport { })
+:
+extends
+implements
+->
+##02::3
+Какое ключевое слово позволяет переопределить метод в производном классе?
+override
+virtual
+abstract
+new
+##03::3
+Какое ключевое слово отмечает метод, который может быть переопределен?
+virtual
+override
+abstract
+sealed
+##04::3
+Какой модификатор доступа позволяет видеть член класса только из того же класса?
+private
+public
+protected
+internal
+##05::3
+Что такое инкапсуляция?
+Сокрытие внутреннего состояния объекта
+Наследование свойств базового класса
+Создание нескольких методов с одним именем
+Переопределение методов
+##06::3
+Какое ключевое слово используется для вызова конструктора базового класса?
+base
+this
+super
+parent
+##07::3
+Какой принцип ООП позволяет методам работать с объектами разных классов единообразно?
+Полиморфизм
+Наследование
+Инкапсуляция
+Абстракция
+##08::3
+Что такое перегрузка методов?
+Создание методов с одним именем, но разными параметрами
+Переопределение метода в производном классе
+Сокрытие реализации метода
+Наследование метода
+##09::3
+Какой модификатор доступа позволяет видеть член класса из производных классов?
+protected
+private
+public
+internal
+##10::3
+Можно ли создать экземпляр абстрактного класса?
+Нет
+Да
+Только через наследование
+Только с модификатором sealed
+##11::3
+Что выведет этот код?class A { public virtual void Show() => Console.Write("A"); }class B : A { public override void Show() => Console.Write("B"); }A obj = new B(); obj.Show();
+B
+A
+AB
+Ошибка компиляции
+##12::3
+Какой метод называется абстрактным?
+Метод без реализации
+Метод с реализацией по умолчанию
+Статический метод
+Виртуальный метод
+##13::3
+Какой принцип ООП иллюстрирует этот код?private decimal balance;public decimal Balance { get => balance; }
+Инкапсуляция
+Наследование
+Полиморфизм
+Абстракция
+##14::3
+Какое ключевое слово используется для свойств только для чтения?public string Name { ___; }
+get
+set
+return
+value
+##15::3
+Что такое полиморфизм во время выполнения?
+Переопределение методов
+Перегрузка методов
+Сокрытие методов
+Объявление методов
+##16::3
+Какой код корректен для переопределения метода?
+public override void Move() { }
+public virtual void Move() { }
+public abstract void Move() { }
+public new void Move() { }
+##17::3
+Какой модификатор доступа имеет самый широкий уровень доступа?
+public
+private
+protected
+internal
+##18::3
+Что такое наследование?
+Механизм создания нового класса на основе существующего
+Сокрытие внутренней реализации
+Создание методов с одним именем
+Переопределение поведения методов
+##19::3
+Какой код демонстрирует инкапсуляцию?
+private int age; public int Age { get => age; set => age = value; }
+public int age;
+class B : A { }
+void Print() { } void Print(string text) { }
+##20::3
+Какое утверждение о абстрактных классах верно?
+Нельзя создать экземпляр абстрактного класса
+Абстрактный класс должен содержать только абстрактные методы
+Абстрактный класс не может иметь конструктор
+Абстрактный класс должен быть унаследован от другого класса
+##21::3
+Что выведет этот код?class Base { public Base() => Console.Write("A"); }class Derived : Base { public Derived() => Console.Write("B"); }new Derived();
+AB
+BA
+A
+B
+##22::3
+Какой результат выполнения этого кода?abstract class Shape { public abstract double Area(); }class Circle : Shape {   public double Radius;  public override double Area() => Math.PI * Radius * Radius;}
+Код корректен
+Ошибка: не реализован метод Area
+Ошибка: нельзя наследовать абстрактный класс
+Ошибка: Circle должен быть abstract
+##23::3
+Что неправильно в этом коде?class Animal {  public virtual void Speak() => Console.Write("Sound");}class Dog : Animal {  public void Speak() => Console.Write("Bark");}
+Нет ключевого слова override
+Метод Speak в Dog должен быть virtual
+Нельзя переопределять методы
+Нет ключевого слова new
+##24::3
+Какой результат выполнения?class Calculator {  public int Add(int a, int b) => a + b;  public double Add(double a, double b) => a + b;}var calc = new Calculator();Console.Write(calc.Add(2, 3) + " " + calc.Add(2.5, 3.5));
+5 6
+6 5
+2.5 3.5
+Ошибка компиляции
+##25::3
+Что выведет этот код?class A { public string Name = "A"; }class B : A { public new string Name = "B"; }A obj = new B(); Console.Write(obj.Name);
+A
+B
+AB
+Ошибка
+##26::3
+Какой код демонстрирует полиморфизм?
+Animal animal = new Dog(); animal.MakeSound();
+Dog dog = new Dog(); dog.MakeSound();
+Animal animal = new Animal(); animal.MakeSound();
+var animal = new Dog(); animal.MakeSound();
+##27::3
+Что неправильно в этом свойстве?public int Count { get; private set; }public void Reset() { Count = 0; }
+Ничего, код корректен
+set должен быть public
+get должен быть private
+Нельзя использовать private set
+##28::3
+Какой конструктор корректен?
+public Car(string model) : base(model) { }
+public Car(string model) : super(model) { }
+public Car(string model) : parent(model) { }
+public Car(string model) : this() { base(model); }
+##29::3
+Что выведет этот код?class X { public X() => Console.Write("X"); }class Y : X { public Y() : this(0) => Console.Write("Y1"); public Y(int n) => Console.Write("Y2"); }new Y();
+XY2Y1
+Y1Y2X
+XY1Y2
+Ошибка компиляции
+##30::3
+Какой метод будет вызван?class Parent { public void Method() => Console.Write("P"); }class Child : Parent { public new void Method() => Console.Write("C"); }Parent obj = new Child(); obj.Method();
+P
+C
+PC
+Ошибка

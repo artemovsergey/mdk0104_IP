@@ -1,0 +1,130 @@
+192.168.255
+Ставропольский колледж связи
+Специальность::0907::Информационные системы и программирование
+Дисциплина::1004::МДК0104 Системное программирование: DI
+Преподаватель::Артемов С.В.
+Индекс теста::11::МДК0104 Системное программирование: DI
+Всего вопросов::20
+Выводимых вопросов::20
+Тип теста::S=100::Z(DCDCDC)::J90%80%70%
+
+##01::3
+Что такое Dependency Injection (DI)?
+Паттерн проектирования для передачи зависимостей извне
+База данных для хранения зависимостей
+Тип данных в C#
+Фреймворк для тестирования кода
+##02::3
+Какую проблему решает DI?public class OrderService {    private readonly EmailService _emailService = new EmailService();}
+Жесткую связность классов
+Низкую производительность
+Отсутствие интерфейсов
+Ошибки компиляции
+##03::3
+Какой интерфейс представляет коллекцию сервисов в DI-контейнере ASP.NET Core?builder.Services.AddScoped();
+IServiceCollection
+IServiceProvider
+IServiceScope
+IServiceFactory
+##04::3
+Какой интерфейс отвечает за создание и предоставление экземпляров сервисов?
+IServiceProvider
+IServiceCollection
+IServiceScope
+IServiceFactory
+##05::3
+Какой жизненный цикл сервиса создает новый экземпляр при каждом запросе к контейнеру?
+Transient
+Scoped
+Singleton
+Instance
+##06::3
+Какой жизненный цикл сервиса создает один экземпляр на каждый HTTP-запрос?
+Scoped
+Transient
+Singleton
+Request
+##07::3
+Какой жизненный цикл сервиса создает один экземпляр на все время работы приложения?
+Singleton
+Scoped
+Transient
+Static
+##08::3
+Как зарегистрировать сервис с интерфейсом IEmailService и реализацией SmtpEmailService на время запроса?builder.Services.____();
+AddScoped
+AddTransient
+AddSingleton
+AddInstance
+##09::3
+Какой способ внедрения зависимостей является предпочтительным в ASP.NET Core?
+Через конструктор класса
+Через свойство класса
+Через метод класса
+Через глобальную переменную
+##10::3
+Какой атрибут используется для внедрения зависимости через параметр метода действия контроллера?public IActionResult Index([___] IProductService service)
+FromServices
+FromBody
+FromRoute
+FromQuery
+##11::3
+Какой сервис из пространства Microsoft.Extensions.Options используется для доступа к настроечным данным?public MyService(___ options) {    _settings = options.Value;}
+IOptions
+IConfiguration
+IOptionsSnapshot
+IOptionsMonitor
+##12::3
+Какой паттерн считается анти-паттерном при работе с DI?
+Service Locator
+Constructor Injection
+Method Injection
+Property Injection
+##13::3
+Что произойдет, если внедрить Scoped сервис в Singleton?
+Возникнет ошибка во время выполнения приложения
+Сервис будет работать корректно
+Scoped сервис станет Singleton
+Приложение будет работать медленнее
+##14::3
+Как зарегистрировать сервис с помощью фабричного метода?builder.Services.AddSingleton(sp =>     new SqlConnection(___));
+Configuration.GetConnectionString("Default")
+new SqlConnection()
+sp.GetRequiredService()
+"Server=.;Database=MyDb;"
+##15::3
+Как внедрить сервис напрямую в Razor Page с помощью директивы?___ IProductService ProductService
+@inject
+@using
+@model
+@addTagHelper
+##16::3
+Какое преимущество дает DI при модульном тестировании?
+Легко подменять реальные сервисы на mock-объекты
+Тесты выполняются быстрее
+Не нужно писать тесты
+Тесты автоматически генерируются
+##17::3
+Какой тип регистрации используется в следующем коде?builder.Services.AddSingleton(new AppSettings { Name = "MyApp" });
+Регистрация конкретного экземпляра
+Регистрация через фабрику
+Регистрация типа
+Регистрация интерфейса
+##18::3
+Какой жизненный цикл обычно используется для DbContext в Entity Framework Core?
+Scoped
+Transient
+Singleton
+Instance
+##19::3
+Что будет результатом выполнения тестового кода?var mockService = new Mock();var controller = new ProductsController(mockService.Object);
+Создание контроллера с поддельным сервисом для теста
+Ошибка компиляции
+Создание контроллера с реальным сервисом
+Регистрация сервиса в контейнере
+##20::3
+Какой метод используется для настройки параметров (Options) из секции конфигурации?builder.Services.Configure(Configuration.GetSection(___));
+"MySettings"
+"AppSettings"
+"Configuration"
+"Options"

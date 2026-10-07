@@ -4,6 +4,8 @@
 ## Get latest from `dotnet new gitignore`
 promt.md
 
+tests
+
 # dotenv files
 .env
 
